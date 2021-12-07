@@ -27,17 +27,17 @@ function calcularAreaCirculo(){
 }
 
 // function calcularCuadrado_click(){
-//     var lado = recuperarLadoCuadrado();
+//     var lado = recuperarValorEntero("ladoC");
 //     var area = calcularAreaCuadrado2(lado);
-//     mostrarAreaCuadrado(area);
+//     mostrarTexto("resultadoAreaCuadrado", area.toString() + "cm<sup>2</sup>");
 // }
 
-// function recuperarLadoCuadrado(){
-//     return parseInt(document.getElementById("ladoC").value);
+// function recuperarValorEntero(nombreElemento){
+//     return parseInt(document.getElementById(nombreElemento).value);
 // }
 
-// function mostrarAreaCuadrado(area){
-//     document.getElementById("resultadoAreaCuadrado").innerHTML = area.toString() + "cm<sup>2</sup>";
+// function mostrarTexto(nombreElemento, texto){
+//     document.getElementById(nombreElemento).innerHTML = texto;
 // }
 
 // function calcularAreaCuadrado2(lado){
