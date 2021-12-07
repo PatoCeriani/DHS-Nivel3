@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+ background-color: black;
+ color: white;  
+ text-align: center;
+ padding: 10px;
+}
+
+#spanNombreMascota{
+    color: purple;
+    font-weight: bold;
+}

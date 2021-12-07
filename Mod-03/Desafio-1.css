@@ -1,0 +1,28 @@
+body {
+  padding: 0 50px;
+  font-family: sans-serif;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+span {
+  text-decoration: underline;
+}
+
+#nombre {
+  color: blue;
+}
+.comida {
+  color: green;
+}
+.deporte {
+  color: red;
+}
+#actividadPrincipal {
+    background-color: yellow;
+    font-weight: bold;
+}

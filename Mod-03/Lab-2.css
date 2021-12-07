@@ -1,0 +1,65 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:bisque;
+}
+header{
+    background-color: rgb(235, 147, 32);
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(235, 147, 32);
+    color: black;
+    padding: 5px;
+}
+#nombrePersonaje{
+    color: rgb(56, 5, 5);
+    font-weight: bold;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+section{
+    background-color: rgb(238, 234, 230);
+    color: black;
+    margin: 15px;
+    padding: 15px;
+}
+#panelDerecho{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+#laberinto{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#laberinto div{
+    border: 1px solid black;
+}
+#personaje{
+    width: 30px;
+    height: 30px;
+}
+.camino{
+    background-color: rgb(13, 236, 13);
+}
+.pared{
+    background-color: rgb(53, 14, 4);
+}
+.entrada{
+    background-color: red;
+}
+.salida{
+    background-color: red;
+}

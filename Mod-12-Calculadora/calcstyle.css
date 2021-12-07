@@ -1,0 +1,65 @@
+/* font-family: 'Fira Sans', sans-serif;
+font-family: 'Oswald', sans-serif; */
+body {
+  margin: 0px;
+  background-color: rgb(236, 222, 177);
+}
+
+header {
+  display: grid;
+  background-color: #9f3018;
+  grid-template-rows: 60px 70px;
+  padding: 0px;
+  margin: 0px;
+}
+.cabezal {
+  display: grid;
+  background-color: #9f3018;
+  align-content: center;
+}
+.navegacion {
+  display: grid;
+  margin: 0px;
+  background-color: rgb(241, 201, 69);
+  padding: 0px;
+  margin: 0px;
+  align-content: center;
+}
+.navlist {
+  display: grid;
+  grid-template-rows: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-content: center;
+  list-style-type: none;
+  border: 1px solid green;
+}
+.navtext {
+  font-family: "Oswald", sans-serif;
+  color: #9f3018;
+}
+main {
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 1fr 1fr;
+}
+.figura1{
+    display: grid;
+    border: 2px solid green;
+    grid-template-rows: 40px 300px;
+}
+
+h1 {
+  color: whitesmoke;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+h2{
+    font-family: "Oswald", sans-serif;
+  color: whitesmoke;
+  background-color: #9f3018;
+  margin: 0px;
+}
+.navimg {
+  width: 45px;
+  height: 45px;
+}

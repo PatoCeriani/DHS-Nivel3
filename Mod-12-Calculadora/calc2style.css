@@ -1,0 +1,170 @@
+body{
+    background-color: #ffd175;
+    margin: 0px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+header{
+    display: grid;
+    background-color: #0073bb;
+    margin: 0px;
+    
+}
+
+main{
+    display: grid;
+    grid-template-rows: 380px 380px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.figura{
+    display: grid;
+    grid-template-rows: 80px 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.figuratitulo{
+    display: grid;
+    grid-template-columns: 60px auto;
+    background-color: #88d670;
+    padding-left: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+.cajaimagen{
+    display: grid;
+    padding: 0px;
+    width: 60px;
+    align-content: center;
+    
+}
+
+.figuraimagen{
+    width: 50px;
+    height: 50px;
+}
+
+.figuracalculo{
+    display: grid;
+    background-color: #f7ead0;
+    margin: 0px 0px 10px 0px;
+    padding-left: 75px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    justify-items: start;
+
+}
+
+.resaltado{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.imgreferencia{
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+
+
+.button-1{
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  width: 200px;
+  line-height: 20px;
+  list-style: none;
+  margin-top: 10px;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+h1{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-family: "Oswald", sans-serif;
+    color: black;
+    text-align: left; 
+}
+
+p{
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+}
+
+.texboxinput{
+    background-color: white;
+    border: none;
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+}
+
+footer{
+    background-color: #0073bb;
+    
+}
+
+ul{
+    display: grid;
+    color: white;
+    grid-template-columns: 100px 400px 100px;
+    list-style-type: none;
+    place-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.footerimg{
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+}
+
+.footertext{
+    text-align: center;
+}
+
+
+
+.color1 {color: #ffa899;}
+.color2 {color: #ffd175;}
+.color3 {color: #0073bb;}
+.color4 {color: #00a886;}
+.color5 {color: #88d670;} 
+

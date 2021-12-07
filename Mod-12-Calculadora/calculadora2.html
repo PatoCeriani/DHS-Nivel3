@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Geométrica</title>
+    <link rel="stylesheet" href="calc2style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <script src="calc.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora Geométrica</h1>
+    </header>
+    <main>
+      <div class="figura">
+        <div class="figuratitulo">
+          <div class="cajaimagen">
+            <img
+              class="figuraimagen"
+              src="https://i.ibb.co/pzfvWT8/triangulo.png"
+              alt="Triángulo"
+            />
+          </div>
+          <div class="figuranombre">
+            <h2>TRIÁNGULO</h2>
+          </div>
+        </div>
+        <div class="figuracalculo">
+          <div class="ingresadato">
+            <p>Ingresa la medida de la <span class="resaltado">base</span> del triángulo:</p>
+            <input class="texboxinput" id="baseT" type="number" placeholder="Valor de (b) en cm." />
+          </div>
+          <div class="ingresadato">
+            <p>
+              Ingresa la medida de la <span class="resaltado">altura</span> del triángulo:
+            </p>
+            <input class="texboxinput" id="alturaT" type="number" placeholder="Valor de (h) en cm." />
+          </div>
+          <div class="calculaimagen">
+            <img
+              class="imgreferencia"
+              src="https://i.ibb.co/q5PsKhZ/calctriangulo.png"
+              alt="Medidas necesarias para el cálculo del área del triángulo"
+            />
+          </div>
+          <div class="calcula">
+            <button onclick="calcularAreaTriangulo();" class="button-1">
+              Calcular el área
+            </button>
+            <p>
+              El <span class="resaltado">área</span> mide:
+              <span id="resultadoAreaTriangulo"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="figura">
+        <div class="figuratitulo">
+          <div class="cajaimagen">
+            <img
+              class="figuraimagen"
+              src="https://i.ibb.co/ryZ1X8Y/cuadrado.png"
+              alt="Cuadrado"
+            />
+          </div>
+          <div class="figuranombre">
+            <h2>CUADRADO</h2>
+          </div>
+        </div>
+        <div class="figuracalculo">
+          <div class="ingresadato">
+            <p>Ingresa la medida del <span class="resaltado">lado</span> del cuadrado:</p>
+            <input class="texboxinput" id="ladoC" type="number" placeholder="Valor de (a) en cm." />
+          </div>
+          <div class="ingresadato">
+          
+          </div>
+          <div class="calculaimagen">
+            <img
+              class="imgreferencia"
+              src="https://i.ibb.co/vHSTZNh/calcuadrado.png"
+              alt="Medidas necesarias para el cálculo del área del cuadrado"
+            />
+          </div>
+          <div class="calcula">
+            <button onclick="calcularAreaCuadrado();" class="button-1">
+              Calcular el área
+            </button>
+            <p>
+              El <span class="resaltado">área</span> mide:
+              <span id="resultadoAreaCuadrado"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="figura">
+        <div class="figuratitulo">
+          <div class="cajaimagen">
+            <img
+              class="figuraimagen"
+              src="https://i.ibb.co/crGRn9X/rectangulo.png"
+              alt="Rectángulo"
+            />
+          </div>
+          <div class="figuranombre">
+            <h2>RECTÁNGULO</h2>
+          </div>
+        </div>
+        <div class="figuracalculo">
+          <div class="ingresadato">
+            <p>Ingresa la medida del <span class="resaltado">lado corto</span> del rectángulo:</p>
+            <input class="texboxinput" id="ladoCorto" type="number" placeholder="Valor de (a) en cm." />
+          </div>
+          <div class="ingresadato">
+            <p>
+              Ingresa la medida del <span class="resaltado">lado largo</span> del rectángulo:
+            </p>
+            <input class="texboxinput" id="ladoLargo" type="number" placeholder="Valor de (b) en cm." />
+          </div>
+          <div class="calculaimagen">
+            <img
+              class="imgreferencia"
+              src="https://i.ibb.co/8x1K2wW/calcrectangulo.png"
+              alt="Medidas necesarias para el cálculo del área del rectángulo"
+            />
+          </div>
+          <div class="calcula">
+            <button onclick="calcularAreaRectangulo();" class="button-1">
+              Calcular el área
+            </button>
+            <p>
+              El <span class="resaltado">área</span> mide:
+              <span id="resultadoAreaRectangulo"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="figura">
+        <div class="figuratitulo">
+          <div class="cajaimagen">
+            <img
+              class="figuraimagen"
+              src="https://i.ibb.co/KLtHWLH/circulo.png"
+              alt="Círculo"
+            />
+          </div>
+          <div class="figuranombre">
+            <h2>CÍRCULO</h2>
+          </div>
+        </div>
+        <div class="figuracalculo">
+          <div class="ingresadato">
+            <p>Ingresa la medida del <span class="resaltado">radio</span> del círculo:</p>
+            <input class="texboxinput" id="radioC" type="number" placeholder="Valor de (r) en cm." />
+          </div>
+          <div class="ingresadato">
+          </div>
+          <div class="calculaimagen">
+            <img
+              class="imgreferencia"
+              src="https://i.ibb.co/1zdjyZ4/calccirculo.png"
+              alt="Medidas necesarias para el cálculo del área del círculo"
+            />
+          </div>
+          <div class="calcula">
+            <button onclick="calcularAreaCirculo();" class="button-1">
+              Calcular el área
+            </button>
+            <p>
+              El <span class="resaltado">área</span> mide:
+              <span id="resultadoAreaCirculo"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="https://www.digitalhouse.com/ar" target="_blank"><img class="footerimg" src="https://i.ibb.co/xzNhYhq/footer-dhs.png" alt="Logo de Digital House"></a></li>
+        <li class="footertext">Realizado por Patricia Ceriani en el Programa de Líderes Digitales de Digital House.</li>
+        <li><a href="https://www.facebook.com/AlertaGrafica/" target="_blank"><img class="footerimg" src="https://i.ibb.co/dGZRrKY/footer-alerta.png" alt="Logo de Alerta Gráfica"></a></li>
+      </ul>
+      
+    </footer>
+  </body>
+</html>

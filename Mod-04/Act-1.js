@@ -1,0 +1,4 @@
+moverAbajo();
+moverAbajo();
+moverDerecha();
+moverDerecha();

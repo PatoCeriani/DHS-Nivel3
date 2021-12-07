@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+header{
+    background-color: rgb(58, 15, 15);
+    color: rgb(243, 231, 231);
+    padding: 10px;
+    text-align: center;
+}
+main{
+    padding: 20px;
+    background-color:rgb(243, 231, 231);;
+}
+
+button{
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 15px;
+}

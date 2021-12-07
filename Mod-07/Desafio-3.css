@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+ background-color: black;
+ color: white;  
+ text-align: center;
+ padding: 10px;
+}
+
+span{
+    color: red;
+    font-weight: bold;
+}

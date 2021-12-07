@@ -1,0 +1,1 @@
+document.getElementById("nombre-personaje").innerHTML = "Flufy";
