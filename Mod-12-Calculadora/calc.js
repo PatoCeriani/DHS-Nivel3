@@ -25,3 +25,21 @@ function calcularAreaCirculo(){
     document.getElementById("resultadoAreaCirculo").innerHTML = circuloArea + "cm<sup>2</sup>";
 
 }
+
+// function calcularCuadrado_click(){
+//     var lado = recuperarLadoCuadrado();
+//     var area = calcularAreaCuadrado2(lado);
+//     mostrarAreaCuadrado(area);
+// }
+
+// function recuperarLadoCuadrado(){
+//     return parseInt(document.getElementById("ladoC").value);
+// }
+
+// function mostrarAreaCuadrado(area){
+//     document.getElementById("resultadoAreaCuadrado").innerHTML = area.toString() + "cm<sup>2</sup>";
+// }
+
+// function calcularAreaCuadrado2(lado){
+//     return lado**2;
+// }
