@@ -1,4 +1,4 @@
 function cambiarImagen() {
-    var nuevaUrl = prompt("Elige tu imagen de perfil");
+    var nuevaUrl = document.getElementById("inputImagen").value;
     document.getElementById("imagen").src = nuevaUrl;
 }
